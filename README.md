@@ -124,3 +124,5 @@ Using the data from Step One plot an ideal vacation spot
 *Now that we have the prime cold vacation spots and the closest hotel to the coordinates, it's time to map our destination vacation*  
 ![Prime vacay spots](Images/PrimeVacationSpots.png)  
 
+**Looks like we're going to Norway first!**  
+
