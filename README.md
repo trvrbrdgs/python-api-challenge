@@ -103,7 +103,7 @@ Using the data from Step One plot an ideal vacation spot
 *Using the following criteria, find the ideal COLD weather vacation spot.*  
 | Max Temp | Humidity | Wind Speed |
 |----------|----------|------------|
-| < = 40 F | < = 75   | < = 7      |
+| < = 40 F | < = 75 g/kg | < = 7  mph |
 
 *The hope is the temperature, humidity, and wind speed are ideal for snowfall and thereore snowboarding activities*
 ![prime vacay locaation](Images/PrimeVacaySearch.png)  
