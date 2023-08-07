@@ -7,13 +7,13 @@
 *-Generate Random City Weather and Coordinate Data*  
 *-Create scatter plots and linear regressions comparing Northern and Southern Hemispheres*  
 *-Scatter Plot Comparisons Include:*  
-    *- Latitude vs Temp*  
-    *- Latitude vs Humidity*  
-    *- Latitude vs Cloudiness*  
-    *- Latitude vs Wind Speed*  
+    *-- Latitude vs Temp*  
+    *-- Latitude vs Humidity*  
+    *-- Latitude vs Cloudiness*  
+    *-- Latitude vs Wind Speed*  
 
 *Step Two:*  
-*Use resulting data to determine best COLD vacation spot (because beaches are overrated) using specific criteria.*  
+*-Use resulting data to determine best COLD vacation spot (because beaches are overrated) using specific criteria.*  
 
 ---
 # Step One  
