@@ -116,7 +116,7 @@ Using the data from Step One plot an ideal vacation spot
 ![hotel search](Images/HotelSearch.png)  
 
 *Create a hotel dataframe using the results from above*  
-![hotel_df](Images/Hotel_df.png)  
+![hotel_code](Images/Hotel_code.png)  
 
 ---
 
