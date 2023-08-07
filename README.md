@@ -13,12 +13,7 @@
 *- Latitude vs Wind Speed*  
 
 *Step Two:*  
-*Use resulting data to determine best COLD vacation spot (because beaches are overrated) using the following criteria:*  
-| Max Temp | Humidity | Wind Speed |
-|----------|----------|------------|
-| < = 40 F | < = 75   | < = 7      |
-
-*The hope is the temperature, humidity, and wind speed are ideal for snowfall and thereore snowboarding activities*
+*Use resulting data to determine best COLD vacation spot (because beaches are overrated) using specific criteria.*  
 
 ---
 # Step One  
@@ -93,4 +88,39 @@ At any rate, the humidity seems to be primarily up north. Not what I was expecti
 ---
 
 # Step Two
-## Plot all the cities generated
+## Plot all the cities generated  
+Using the data from Step One plot an ideal vacation spot  
+
+---
+
+## Plot all the generated cities onto a map. 
+*The size of the plot point over the city is dictated by the amount of humidity (i.e. the more humidity the bigger the point)*  
+![all cities](Images/AllCitiesMap.png)  
+
+---
+
+## Find prime vacation spot
+*Using the following criteria, find the ideal COLD weather vacation spot.*  
+| Max Temp | Humidity | Wind Speed |
+|----------|----------|------------|
+| < = 40 F | < = 75   | < = 7      |
+
+*The hope is the temperature, humidity, and wind speed are ideal for snowfall and thereore snowboarding activities*
+![prime vacay locaation](Images/PrimeVacaySearch.png)  
+
+---
+
+## Search for hotels amongst prime vacation locations
+*For each city that meets the above criteria, use Geoapify API to find the first hotel within 10k meters of coordinates*  
+![hotel code](Images/HotelCode.png)  
+![hotel search](Images/HotelSearch.png)  
+
+*Create a hotel dataframe using the results from above*  
+![hotel_df](Images/Hotel_df.png)  
+
+---
+
+## Map the prime vacation spots by hotel
+*Now that we have the prime cold vacation spots and the closest hotel to the coordinates, it's time to map our destination vacation*  
+![Prime vacay spots](Images/PrimeVacationSpots.png)  
+
